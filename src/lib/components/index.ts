@@ -1,5 +1,5 @@
 import HeroComponent from './HeroComponent.svelte';
-import Input from './Input.svelte';
+import Input from './InputComponent.svelte';
 import Modal from './Modal.svelte';
 import ProjectCard from './ProjectCard.svelte';
 import TextArea from './TextArea.svelte';
