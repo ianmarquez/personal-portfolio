@@ -1,5 +1,5 @@
 ---
-title: My IDE(VSCode) to PDE(Neovim) Journey
+title: My IDE to PDE Journey
 description: This post details my journey from VSCode to Neovim.
   I will be rumbling about my reasoning and experience on this.
   Hopefully this inspires you to explore other IDEs out there
@@ -13,7 +13,7 @@ categories:
 published: true
 ---
 
-#Markdown
+## Markdown
 
 Hello friends
 
@@ -25,4 +25,4 @@ function greet(name: string) {
 
 Media inside **_static_** folder is served from '/'.
 
-![Favicon]('favicon.ico')
+![Favicon](/favicon.png)

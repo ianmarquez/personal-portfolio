@@ -1,19 +1,22 @@
 <script lang="ts">
-	import { formatDate } from '$lib/utils';
+	import { PostCard } from '$lib/components';
 	export let data;
 </script>
+
+<div class="text-md breadcrumbs">
+	<ul class="[&>li>a]:duration-300">
+		<li><a href="/" class="hover:text-primary">Home</a></li>
+		<li><a href="/posts" class="hover:text-primary">Posts</a></li>
+	</ul>
+</div>
 
 <ul class="w-full flex flex-col gap-2">
 	{#if data.posts.length > 0}
 		{#each data.posts as post}
-			<li class="w-full flex flex-col gap-2 border-b-primary border-b-2 last:border-b-0 py-3">
-				<a
-					href="/posts/{post.slug}"
-					class="text-primary text-lg font-semibold underline underline-offset-2 capitalize"
-					>{post.title}</a
-				>
-				<p class="text-secondary text-xs">{formatDate(post.date, 'medium', 'en')}</p>
-				<p class="text-sm text-white font-thin max-w-2xl">{post.description}</p>
+			<li class="w-full flex flex-col gap-3 border-b-primary border-b-2 last:border-b-0 py-3">
+				<a href="/posts/{post.slug}">
+					<PostCard {...post} />
+				</a>
 			</li>
 		{/each}
 	{:else}

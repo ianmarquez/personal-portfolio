@@ -15,6 +15,7 @@
 	<meta name="description" content={config.description} />
 	<meta name="url" content={config.url} />
 </svelte:head>
+
 <div class="min-h-full scroll-smooth flex flex-col overflow-clip font-mono">
 	<nav class="navbar bg-base-100">
 		{#if data.user}
