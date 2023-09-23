@@ -2,6 +2,8 @@ const { randomBytes } = await import('node:crypto');
 import { PUBLIC_POCKETBASE_URL } from '$env/static/public';
 import type { ZodEffects, ZodError, ZodObject } from 'zod';
 
+type DateStyle = Intl.DateTimeFormatOptions['dateStyle'];
+
 export const generateUsername = (name: string) => {
 	const id = randomBytes(2).toString('hex');
 	return `${name.replaceAll(' ', '_').slice(0, 5)}${id}`.toLowerCase();
@@ -34,4 +36,9 @@ export const validateData = async <T>(
 			errors
 		};
 	}
+};
+
+export const formatDate = (date: string, dateStyle: DateStyle = 'medium', locales: 'en') => {
+	const formatter = new Intl.DateTimeFormat(locales, { dateStyle });
+	return formatter.format(new Date(date));
 };

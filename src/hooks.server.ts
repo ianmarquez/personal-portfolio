@@ -1,4 +1,4 @@
-import { PUBLIC_ENVIRONMENT } from '$env/static/public';
+import { dev } from '$app/environment';
 import { pb } from '$lib/pocketbase';
 import type { Handle } from '@sveltejs/kit';
 
@@ -18,7 +18,7 @@ export const handle: Handle = async ({ event, resolve }) => {
 
 	const response = await resolve(event);
 	const cookie = event.locals.pb.authStore.exportToCookie({
-		httpOnly: PUBLIC_ENVIRONMENT === 'dev'
+		httpOnly: dev
 	});
 	response.headers.append('set-cookie', cookie);
 	return response;
