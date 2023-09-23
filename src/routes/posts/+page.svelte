@@ -4,9 +4,7 @@
 </script>
 
 <ul class="w-full flex flex-col gap-2">
-	{#if data.posts.length === 0}
-		<p>No Posts Found, Please come back later</p>
-	{:else}
+	{#if data.posts.length > 0}
 		{#each data.posts as post}
 			<li class="w-full flex flex-col gap-2 border-b-primary border-b-2 last:border-b-0 py-3">
 				<a
@@ -18,5 +16,7 @@
 				<p class="text-sm text-white font-thin max-w-2xl">{post.description}</p>
 			</li>
 		{/each}
+	{:else}
+		<p class="text-primary text-lg font-bold">No Posts Found, Please come back later</p>
 	{/if}
 </ul>
