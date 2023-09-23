@@ -16,13 +16,13 @@
 		<li><a href="/" class="hover:text-primary">Home</a></li>
 		<li><a href="/posts" class="hover:text-primary">Posts</a></li>
 		<li>
-			<a href="/posts/{data.meta.title}" class="hover:text-primary capitalize">{data.meta.title}</a>
+			<a href="/posts/{data.slug}" class="hover:text-primary capitalize">{data.meta.title}</a>
 		</li>
 	</ul>
 </div>
 
-<pre class="flex-col flex gap-4">
-  <hgroup class="flex flex-col gap-3 overflow-hidden max-w-2xl">
+<pre class="flex-col flex gap-2">
+  <hgroup>
     <PostCard {...data.meta} />
   </hgroup>
   <article class="markdown-body">
