@@ -23,7 +23,12 @@
 
 <pre class="flex-col flex gap-2">
   <hgroup>
-    <PostCard {...data.meta} />
+    <PostCard
+			title={data.meta.title}
+			description={data.meta.description}
+			categories={data.meta.categories}
+			date={data.meta.date}
+		/>
   </hgroup>
   <article class="markdown-body">
     <svelte:component this={data.content} />

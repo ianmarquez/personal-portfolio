@@ -45,9 +45,7 @@ Converting these to packer was hard for me. Since I was trying to hit two birds 
 
 ## Conclusion
 
-I've been using neovim for a while now and I'm really enjoying it. My biggest take on this experience is to get out of your comfort zone. Learning and using new tools takes time but is fullfilling at the same time.
-
-If youre getting burntout do something, explore, try something new, learn something new. Knowing what it's like to be a beginner is a good thing. This experience made me realize I need to learn more as I know nothing.
+I've been using neovim for a while now and I'm really enjoying it. My biggest take on this experience is to get out of your comfort zone. Learning and using new tools takes time but is fullfilling at the same time. If youre getting burntout do something, explore, try something new, learn something new. Knowing what it's like to be a beginner is a good thing. This experience made me realize I need to learn more as I know nothing.
 
 Thank you to the tech youtubers who put out great tutorial content on this matter and also to my colleague who introduced me to NVChad. I hope you begin your switch as well.
 

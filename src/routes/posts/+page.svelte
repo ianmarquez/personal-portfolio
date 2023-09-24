@@ -15,7 +15,12 @@
 		{#each data.posts as post}
 			<li class="w-full flex flex-col gap-3 border-b-primary border-b-2 last:border-b-0 py-3">
 				<a href="/posts/{post.slug}">
-					<PostCard {...post} />
+					<PostCard
+						title={post.title}
+						description={post.description}
+						categories={post.categories}
+						date={post.date}
+					/>
 				</a>
 			</li>
 		{/each}
