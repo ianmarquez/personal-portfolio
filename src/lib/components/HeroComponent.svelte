@@ -79,9 +79,7 @@
 	];
 </script>
 
-<div
-	class="relative border-8 border-white rounded-lg shadow-lg w-full shadow-primary overflow-hidden p-6"
->
+<div class="relative w-full">
 	<div class="hero aspect-video h-fit flex flex-row">
 		<div class="hero-content text-neutral-content p-0">
 			<div class="w-full flex flex-col gap-2 sm:gap-5">
@@ -90,7 +88,7 @@
 				<p class={'text-2xl sm:text-4xl lg:text-7xl text-secondary text-wrap'}>
 					I build <span class="text-primary font-semibold">"stuff"</span> for the web.
 				</p>
-				<p class="max-w-lg text-sm sm:text-md lg:text-lg">
+				<p class="max-w-2xl text-sm sm:text-md lg:text-lg">
 					I'm a software engineer with 10+ years of industry experience. Feel free to reach out to
 					me through the channels below.
 				</p>

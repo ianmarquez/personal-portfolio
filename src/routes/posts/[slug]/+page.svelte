@@ -16,7 +16,7 @@
 		<li><a href="/" class="hover:text-primary">Home</a></li>
 		<li><a href="/posts" class="hover:text-primary">Posts</a></li>
 		<li>
-			<a href="/posts/{data.slug}" class="hover:text-primary capitalize">{data.meta.title}</a>
+			<span>{data.meta.title}</span>
 		</li>
 	</ul>
 </div>
@@ -28,6 +28,9 @@
   <article class="markdown-body">
     <svelte:component this={data.content} />
   </article>
+  <p
+		class="text-[#FFFF80] whitespace-pre-wrap">This post was not endorsed or sponsored by any of the mentioned parties. My views are my own.
+  </p>
   <a
 		target="_blank"
 		class="hover:underline underline-offset-4 text-xs text-secondary hover:text-primary font-thin flex flex-row gap-1 items-center"

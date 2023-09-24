@@ -1,5 +1,5 @@
 .markdown-body {
-	@apply bg-base-100 font-mono;
+	@apply font-mono;
 	color-scheme: dark;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -66,11 +66,12 @@
 }
 
 .markdown-body h1 {
+	@apply border-primary;
 	margin: 0.67em 0;
 	font-weight: 600;
 	padding-bottom: 0.3em;
 	font-size: 2em;
-	border-bottom: 1px solid #21262d;
+	border-bottom: 1px solid;
 }
 
 .markdown-body mark {
@@ -99,7 +100,6 @@
 }
 
 .markdown-body img {
-	@apply bg-base-100;
 	border-style: none;
 	max-width: 100%;
 	box-sizing: content-box;
@@ -274,10 +274,11 @@
 }
 
 .markdown-body h2 {
+	@apply border-primary;
 	font-weight: 600;
 	padding-bottom: 0.3em;
 	font-size: 1.5em;
-	border-bottom: 1px solid #21262d;
+	border-bottom: 1px solid;
 }
 
 .markdown-body h3 {
@@ -301,6 +302,7 @@
 }
 
 .markdown-body p {
+	@apply whitespace-break-spaces;
 	margin-top: 0;
 	margin-bottom: 10px;
 }
@@ -565,12 +567,12 @@
 }
 
 .markdown-body table tr {
-	@apply bg-base-300;
+	@apply bg-base-100;
 	border-top: 1px solid #21262d;
 }
 
 .markdown-body table tr:nth-child(2n) {
-	@apply bg-base-200;
+	@apply bg-base-300;
 }
 
 .markdown-body table img {
@@ -726,7 +728,7 @@
 
 .markdown-body .highlight pre,
 .markdown-body pre {
-	@apply p-8 bg-base-200;
+	@apply p-8 bg-base-100;
 	overflow: auto;
 	font-size: 85%;
 	line-height: 1.45;

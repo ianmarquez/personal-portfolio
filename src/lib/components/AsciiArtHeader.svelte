@@ -1,7 +1,7 @@
 <script lang="ts">
 	import clsx from 'clsx';
 	import { animate, stagger } from 'motion';
-	const duration = 0.009;
+	const duration = 0.005;
 	const asciiArt = [
 		'██╗ █████╗ ███╗   ██╗    ███╗   ███╗ █████╗ ██████╗  ██████╗ ██╗   ██╗███████╗███████╗',
 		'██║██╔══██╗████╗  ██║    ████╗ ████║██╔══██╗██╔══██╗██╔═══██╗██║   ██║██╔════╝╚══███╔╝',
