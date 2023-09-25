@@ -313,6 +313,25 @@
 	border-left: 0.25em solid #30363d;
 }
 
+.markdown-body ol {
+	counter-reset: li;
+}
+
+.markdown-body ol li::before {
+	color: #ffff80;
+	content: counter(li) '.';
+	width: 1em;
+	margin-left: -1em;
+	counter-increment: li;
+}
+
+.markdown-body ul li::before {
+	color: #ffff80;
+	content: '+ ';
+	width: 1em;
+	margin-left: -1em;
+}
+
 .markdown-body ul,
 .markdown-body ol {
 	margin-top: 0;
