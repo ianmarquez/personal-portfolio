@@ -4,7 +4,7 @@
 
 <footer
 	class={clsx(
-		'footer footer-center p-4 bg-base-200 text-base-content rounded flex flex-col gap-2 mt-5',
+		'footer footer-center p-4 bg-base-100 text-base-content rounded flex flex-col gap-2 mt-5',
 		'text-sm sm:text-md lg:text-lg'
 	)}
 >
