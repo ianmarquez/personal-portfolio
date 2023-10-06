@@ -7,6 +7,7 @@ import PostCard from './PostCard.svelte';
 import ProjectCard from './ProjectCard.svelte';
 import TextArea from './TextArea.svelte';
 import MenuBar from './MenuBar.svelte';
+import Experience from './Experience.svelte';
 
 export {
 	AsciiArtHeader,
@@ -17,5 +18,6 @@ export {
 	PostCard,
 	ProjectCard,
 	TextArea,
-	MenuBar
+	MenuBar,
+	Experience
 };

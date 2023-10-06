@@ -7,7 +7,7 @@
 <nav class={clsx('navbar bg-base-100 mb-4', !user && 'justify-center')}>
 	<ul class="flex-none flex flex-row gap-3 text-2xl [&>li>a]:duration-300">
 		<li><a href="/" class="hover:text-primary hover:underline">Home</a> /</li>
-		<li><a href="/" class="hover:text-primary hover:underline">About</a> /</li>
+		<li><a href="/about" class="hover:text-primary hover:underline">About</a> /</li>
 		<li><a href="/posts" class="hover:text-primary hover:underline">Posts</a></li>
 	</ul>
 
