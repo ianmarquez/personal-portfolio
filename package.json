@@ -21,7 +21,7 @@
 		"@typescript-eslint/parser": "^5.62.0",
 		"autoprefixer": "^10.4.16",
 		"daisyui": "^3.9.2",
-		"eslint": "^8.50.0",
+		"eslint": "^8.51.0",
 		"eslint-config-prettier": "^8.10.0",
 		"eslint-plugin-svelte": "^2.34.0",
 		"mdsvex": "^0.11.0",
@@ -41,7 +41,7 @@
 	"type": "module",
 	"dependencies": {
 		"@iconify/svelte": "^3.1.4",
-		"@types/node": "^20.8.2",
+		"@types/node": "^20.8.3",
 		"clsx": "^2.0.0",
 		"iconify-icon": "^1.0.8",
 		"motion": "^10.16.4",
