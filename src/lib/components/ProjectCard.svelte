@@ -47,7 +47,7 @@
 		<p class="text-secondary text-sm sm:text-md lg:text-lg font-extralight">{project.tagline}</p>
 		<p class="text-gray-50 text-sm sm:text-md lg:text-lg font-thin">{project.description}</p>
 		<div class="card-actions justify-end">
-			<a href="/projects/{project.id}" class="btn btn-primary">View</a>
+			<a href={project.url} class="btn btn-primary">View</a>
 			{#if loggedIn}
 				<a href="/projects/{project.id}/edit" class="btn btn-outline">Edit</a>
 				<Modal label={project.id} checked={modalOpen}>
