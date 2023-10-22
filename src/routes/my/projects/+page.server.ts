@@ -29,20 +29,3 @@ export const load: PageServerLoad = ({ locals }) => {
 		projects: getUsersProjects(locals.user.id)
 	};
 };
-
-export const actions: Actions = {
-	deleteProject: async ({ request, locals }) => {
-		const { id } = Object.fromEntries(await request.formData());
-
-		try {
-			if (!id) throw error(400, 'Project ID is required');
-			await locals.pb.collection('projects').delete(id.toString());
-		} catch (err: any) {
-			console.log(err);
-			if (err instanceof ClientResponseError) {
-				throw error(err.status, err.message);
-			}
-			throw error(err.status || 400, err.message || 'An error has occurred deleting project');
-		}
-	}
-};
