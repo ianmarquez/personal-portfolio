@@ -1,5 +1,4 @@
 <script lang="ts">
-	import clsx from 'clsx';
 	import { animate, stagger } from 'motion';
 	const duration = 0.005;
 	const asciiArt = [
@@ -30,10 +29,7 @@
 
 <div class="text-[0.40rem] md:text-[0.75rem] lg:text-xl">
 	<pre
-		class={clsx(
-			'leading-none h-fit overflow-hidden',
-			'text-transparent bg-clip-text bg-gradient-to-r to-[#FF9580] from-[#FFFF80]'
-		)}
+		class="leading-none h-fit overflow-hidden text-transparent bg-clip-text bg-gradient-to-r to-[#FF9580] from-[#FFFF80]"
 		use:animateAsciiArt>
     {#each asciiArt as line}
 			<div class="leading-none">{line}</div>

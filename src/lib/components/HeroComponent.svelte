@@ -1,5 +1,4 @@
 <script lang="ts">
-	import clsx from 'clsx';
 	import { animate, stagger } from 'motion';
 	import { AsciiArtHeader } from '$lib/components';
 
@@ -101,11 +100,7 @@
 				</section>
 				<section
 					use:animateContact
-					class={clsx(
-						'flex flex-col justrify-center gap-4',
-						'[&>a]:flex [&>a]:flex-row [&>a]:items-center [&>a]:gap-2 [&>a]:w-fit [&>a]:duration-300',
-						'text-sm sm:text-md lg:text-lg'
-					)}
+					class={'flex flex-col justrify-center gap-4 [&>a]:flex [&>a]:flex-row [&>a]:items-center [&>a]:gap-2 [&>a]:w-fit [&>a]:duration-300 text-sm sm:text-md lg:text-lg'}
 				>
 					{#each contacts as contact}
 						<a href={contact.url} target="_blank" class="link hover:text-primary">

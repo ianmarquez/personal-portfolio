@@ -1,10 +1,9 @@
 <script lang="ts">
 	import { getImageUrl } from '$lib/utils';
-	import clsx from 'clsx';
 	export let user: import('pocketbase').default['authStore']['model'];
 </script>
 
-<nav class={clsx('navbar bg-base-100 mb-4', !user && 'justify-center')}>
+<nav class="navbar bg-base-100 mb-4" class:justify-center={!user}>
 	<ul class="flex-none flex flex-row gap-3 text-2xl [&>li>a]:duration-300">
 		<li><a href="/" class="hover:text-primary hover:underline">Home</a> /</li>
 		<li><a href="/about" class="hover:text-primary hover:underline">About</a> /</li>
