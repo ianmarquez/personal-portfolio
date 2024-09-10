@@ -9,7 +9,7 @@
   export let shouldBreak: boolean;
 </script>
 
-<div class={clsx('flex flex-col max-w-4xl gap-3',shouldBreak && 'break-after-page')} >
+<div class={clsx('flex flex-col gap-3',shouldBreak && 'break-after-page')} >
 	<div class="font-semibold text-2xl">
 		<h1 class="text-primary">{companyName}</h1>
 		<p class="text-secondary-focus italic">{jobTitle}</p>

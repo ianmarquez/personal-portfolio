@@ -2,7 +2,6 @@
 	import { Experience } from '$lib/components';
   import Data from './experience.json'
 	import { skills } from '$lib/constants';
-	import clsx from 'clsx';
 </script>
 
 <div class="max-w-6xl flex flex-col gap-5 mx-auto my-10">
@@ -41,3 +40,4 @@
     {/each}
 	</div>
 </div>
+
