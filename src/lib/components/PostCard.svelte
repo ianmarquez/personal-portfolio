@@ -12,7 +12,7 @@
 		Published at {formatDate(date, 'medium', 'en')}
 	</p>
 	{#if description}
-		<p class="text-sm text-white font-thin max-w-2xl whitespace-break-spaces">
+		<p class="text-sm text-neutral font-thin max-w-2xl whitespace-break-spaces">
 			{description}
 		</p>
 	{/if}

@@ -87,7 +87,7 @@
 				<p class={'text-2xl sm:text-4xl lg:text-7xl text-secondary text-wrap'}>
 					I build <span class="text-primary font-semibold">"stuff"</span> for the web.
 				</p>
-				<p class="max-w-2xl text-sm sm:text-md lg:text-lg">
+				<p class="max-w-2xl text-sm sm:text-md lg:text-lg text-neutral">
 					I'm a software engineer with 10+ years of industry experience. Feel free to reach out to
 					me through the channels below.
 				</p>
@@ -100,10 +100,10 @@
 				</section>
 				<section
 					use:animateContact
-					class={'flex flex-col justrify-center gap-4 [&>a]:flex [&>a]:flex-row [&>a]:items-center [&>a]:gap-2 [&>a]:w-fit [&>a]:duration-300 text-sm sm:text-md lg:text-lg'}
+					class={'flex flex-col justrify-center gap-4 [&>a]:flex [&>a]:flex-row [&>a]:items-center [&>a]:gap-2 [&>a]:w-fit [&>a]:duration-300 text-sm sm:text-md lg:text-lg '}
 				>
 					{#each contacts as contact}
-						<a href={contact.url} target="_blank" class="link hover:text-primary">
+						<a href={contact.url} target="_blank" class="link hover:text-primary text-neutral">
 							<iconify-icon icon={contact.icon} />
 							{contact.text}
 						</a>

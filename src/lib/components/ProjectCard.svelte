@@ -41,11 +41,11 @@
 		/>
 	</figure>
 	<div class="card-body flex flex-col gap-5">
-		<h2 class="card-title text-primary text-md sm:text-lg lg:text-xl font-semibold">
+		<h2 class="card-title text-md sm:text-lg lg:text-xl font-semibold">
 			{project.name}
 		</h2>
-		<p class="text-secondary text-sm sm:text-md lg:text-lg font-extralight">{project.tagline}</p>
-		<p class="text-gray-50 text-sm sm:text-md lg:text-lg font-thin">{project.description}</p>
+		<p class="text-sm sm:text-md lg:text-lg font-extralight">{project.tagline}</p>
+		<p class="text-gray-neutral text-sm sm:text-md lg:text-lg font-thin">{project.description}</p>
 		<div class="card-actions justify-end">
 			<a href={project.url} class="btn btn-primary">View</a>
 			{#if loggedIn}

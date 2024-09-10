@@ -15,7 +15,7 @@
 	<meta name="url" content={config.url} />
 </svelte:head>
 
-<div class="bg-base-200 min-h-full scroll-smooth flex flex-col overflow-clip font-mono">
+<div class="min-h-full scroll-smooth flex flex-col overflow-clip font-mono">
 	<MenuBar user={data.user} />
 	<main class="flex-1 max-w-screen-2xl mx-auto px-2 sm:px-4 md:px-10 lg:px-12 w-full">
 		<slot />

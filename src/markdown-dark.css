@@ -4,7 +4,7 @@
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	margin: 0;
-	color: #c9d1d9;
+	color: var(--text-neutral);
 	font-size: 16px;
 	line-height: 1.5;
 	word-wrap: break-word;
@@ -76,7 +76,7 @@
 
 .markdown-body mark {
 	background-color: rgba(187, 128, 9, 0.15);
-	color: #c9d1d9;
+	color: var(--text-secondary);
 }
 
 .markdown-body small {
@@ -318,7 +318,7 @@
 }
 
 .markdown-body ol li::before {
-	color: #ffff80;
+	color: var(--text-secondary-content);
 	content: counter(li) '.';
 	width: 1em;
 	margin-left: -1em;
@@ -326,7 +326,7 @@
 }
 
 .markdown-body ul li::before {
-	color: #ffff80;
+	color: var(--text-secondary-content);
 	content: '+ ';
 	width: 1em;
 	margin-left: -1em;
@@ -853,7 +853,7 @@
 
 .markdown-body .pl-e,
 .markdown-body .pl-en {
-	color: #d2a8ff;
+	color: var(--text-primary);
 }
 
 .markdown-body .pl-smi,

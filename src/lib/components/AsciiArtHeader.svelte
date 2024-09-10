@@ -29,7 +29,7 @@
 
 <div class="text-[0.40rem] md:text-[0.75rem] lg:text-xl">
 	<pre
-		class="leading-none h-fit overflow-hidden text-transparent bg-clip-text bg-gradient-to-r to-[#FF9580] from-[#FFFF80]"
+		class="leading-none h-fit overflow-hidden text-transparent bg-clip-text bg-gradient-to-r to-primary from-secondary"
 		use:animateAsciiArt>
     {#each asciiArt as line}
 			<div class="leading-none">{line}</div>

@@ -29,7 +29,7 @@
     <svelte:component this={data.content} />
   </article>
   <p
-			class="text-[#FFFF80] whitespace-pre-wrap">This post was not endorsed or sponsored by any of the mentioned parties. My views are my own.
+			class="text-neutral whitespace-pre-wrap">This post was not endorsed or sponsored by any of the mentioned parties. My views are my own.
   </p>
   <a
 			target="_blank"
