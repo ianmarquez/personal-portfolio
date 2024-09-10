@@ -2,7 +2,7 @@
 	import { formatDate } from '$lib/utils';
 	export let date: string;
 	export let title: string;
-	export let description: string = '';
+	export let description = '';
 	export let categories: string[];
 </script>
 

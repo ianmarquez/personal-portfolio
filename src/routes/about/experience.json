@@ -3,6 +3,7 @@
     "companyName": "Aleph Labs, Singapore",
     "jobTitle": "Senior Software Engineer",
     "date": "June 2023 - Present",
+    "shouldBreak": false,
     "technologiesUsed": [
       "ContentStack",
       "Algolia",
@@ -28,6 +29,7 @@
     "companyName": "Cognizant SG, Govtech, Singapore",
     "jobTitle": "Senior Software Engineer",
     "date": "September 2022 - April 2023",
+    "shouldBreak": true,
     "technologiesUsed": [
       "AWS EC2",
       "Redis",
@@ -49,6 +51,7 @@
     "companyName": "Train ALTA, Philippines, Fully Remote",
     "jobTitle": "Senior Backend Software Engineer",
     "date": "September 2021 - September 2022",
+    "shouldBreak": false,
     "technologiesUsed": [
       "AWS EC2",
       "AWS DyanamoDB",
@@ -77,6 +80,7 @@
   {
     "companyName": "Nuskin, Philippines, Fully Remote",
     "jobTitle": "Senior Software Engineer I",
+    "shouldBreak": false,
     "date": "January 2021 - September 2021",
     "technologiesUsed": [
       "AWS",
@@ -103,6 +107,7 @@
   {
     "companyName": "Manulife, Philippines, Makati City",
     "jobTitle": "Senior Software Engineer",
+    "shouldBreak": false,
     "date": "March 2020 - January 2021",
     "technologiesUsed": [
       "Node.js",
@@ -125,6 +130,7 @@
   {
     "companyName": "IScale Solutions, Philippines, Makati City",
     "jobTitle": "Software Engineer",
+    "shouldBreak": true,
     "date": "July 2019 - January 2020",
     "technologiesUsed": [
       "Node.JS",
@@ -156,6 +162,7 @@
   {
     "companyName": "Infor PSSC, Philippines, Taguig City",
     "jobTitle": "Software Engineer",
+    "shouldBreak": false,
     "date": "April 2016 - July 2019",
     "technologiesUsed": [
       "React.js",
@@ -190,6 +197,7 @@
   {
     "companyName": "Medilink Network, Philippines, Makati City",
     "jobTitle": "Software Engineer I",
+    "shouldBreak": false,
     "date": "September 2015 - May 2016",
     "technologiesUsed": [
       "JIRA",
@@ -217,6 +225,7 @@
   {
     "companyName": "Accenture, Philippines, Quezon City",
     "jobTitle": "Software Engineer",
+    "shouldBreak": false,
     "date": "April 2014 - May 2015",
     "technologiesUsed": [
       "Shell Scripting",
