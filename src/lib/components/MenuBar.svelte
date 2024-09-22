@@ -3,7 +3,7 @@
 	export let user: import('pocketbase').default['authStore']['model'];
 </script>
 
-<nav class="navbar bg-base-200 mb-4" class:justify-center={!user}>
+<nav class="navbar bg-base-200 mb-4 break-after-page" class:justify-center={!user}>
 	<ul class="flex-none flex flex-row gap-3 text-2xl [&>li>a]:duration-300">
 		<li><a href="/" class="hover:text-primary hover:underline">Home</a> /</li>
 		<li><a href="/about" class="hover:text-primary hover:underline">About</a> /</li>

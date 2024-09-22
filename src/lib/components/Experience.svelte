@@ -1,5 +1,5 @@
 <script lang="ts">
-	import clsx from "clsx";
+import { clsx } from 'clsx';
 
 	export let companyName: string;
 	export let jobTitle: string;
@@ -16,7 +16,7 @@
 	</div>
 	<p class="uppercase">{date}</p>
 	<hr class={clsx('w-full border-solid shadow-lg border-primary', )} />
-	<div class="flex flex-row flex-wrap gap-3 items-end hidden">
+	<div class="flex-row flex-wrap gap-3 items-end hidden">
 		<!-- <h3 class="text-secondary font-semibold text-md sm:text-xl">Techonologies Used:</h3> -->
 		{#each technologiesUsed as technology, index}
 			<div>
