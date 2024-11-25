@@ -1,10 +1,10 @@
 <script lang="ts">
-	export let value: string = '';
-	export let placeholder: string = '';
-	export let id: string = '';
-	export let label: string = '';
-	export let disabled: boolean = false;
-	export let required: boolean = false;
+	export let value = '';
+	export let placeholder = '';
+	export let id = '';
+	export let label = '';
+	export let disabled = false;
+	export let required = false;
 
 	export let errors: string[] = [];
 </script>
