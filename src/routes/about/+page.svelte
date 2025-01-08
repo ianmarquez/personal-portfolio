@@ -6,7 +6,7 @@
 
 <div class="max-w-6xl flex flex-col gap-5 mx-auto my-10">
 	<div class="flex flex-col gap-1">
-		<p>40 Lengkong Tujoh 03-15, Singapore 417393</p>
+		<p>38P Tower 1, Trion Towers 8th Ave. Corner Mckinley Parkway BGC Taguig City, Metro Manila</p>
 		<p class="text-secondary text-sm">(65) 93928822, (63)998-999-2713, (63)916-632-9321</p>
 		<p class="text-secondary text-sm underline underline-offset-1">
 			<a href="mail:regilmarquez123@gmail.com">regilmarquez123@gmail.com</a>
